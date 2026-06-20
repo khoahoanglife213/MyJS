@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Menu -->
+  <nav>
+    <a href="#home">Trang chủ</a>
+    <a href="#about">Giới thiệu</a>
+    <a href="#contact">Liên hệ</a>
+  </nav>
+
+  <!-- Giới thiệu -->
+  <section id="home">
+    <h1>Chào mừng đến với MyJS!</h1>
+    <button id="toggleBtn">Hiện/Ẩn nội dung</button>
+    <p id="content">Đây là nội dung về MyJS của tôi.</p>
+  </section>
+
+  <!-- Form liên hệ -->
+  <section id="contact">
+    <h2>Thông tin liên hệ</h2>
+    <form id="contactForm">
+      <input id="nameInput" type="text" placeholder="Họ và tên của bạn" />
+      <input id="emailInput" type="email" placeholder="Email" />
+      <button type="submit">Gửi</button>
+    </form>
+    <p id="msg"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
